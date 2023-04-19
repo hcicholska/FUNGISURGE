@@ -12,7 +12,7 @@ public GameObject backgroundObject;
     private void Start()
     {
         healthSlider.maxValue = healthPoints;
-        backgroundObject.SetActive(false);
+        
     }
 
     
@@ -23,6 +23,11 @@ public GameObject backgroundObject;
         {
             backgroundObject.SetActive(true);
             Time.timeScale = 0f;
+        }
+        else
+        {
+            backgroundObject.SetActive(false);
+           
         }
     }
 
