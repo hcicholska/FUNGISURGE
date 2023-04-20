@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class RestartButton : MonoBehaviour
 {
-    public GameObject player; // referencja do obiektu gracza
+    public CharacterController player; // referencja do obiektu gracza
     public Transform respawnPoint; // referencja do punktu respawnu
     public health playerHealth; // referencja do komponentu zdrowia gracza
     public Button restartButton; // referencja do przycisku Restart w interfejsie użytkownika
@@ -19,8 +19,12 @@ public class RestartButton : MonoBehaviour
     // Metoda wywołana po kliknięciu przycisku Restart
     void RestartGame()
     {
+        Time.timeScale = 1f;
+
+        player.enabled = false;
         // Przywrócenie gracza do punktu respawnu
         player.transform.position = respawnPoint.position;
+        player.enabled = true;
 
         // Przywrócenie punktów zdrowia gracza
         playerHealth.healthPoints = 300f;

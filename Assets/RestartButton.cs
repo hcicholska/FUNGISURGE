@@ -17,6 +17,7 @@ public class Restart : MonoBehaviour
 
     void RestartGame()
     {
+        Time.timeScale = 1f;
         player.transform.position = respawnPoint.position; // Przywrócenie gracza do punktu respawnu
         health.healthPoints = 300f; // Przywrócenie punktów zdrowia gracza
     
