@@ -19,7 +19,7 @@ public GameObject backgroundObject;
     private void Update()
     {
         healthSlider.value = healthPoints;
-       if (healthPoints <= 0 && !backgroundObject.activeSelf)
+       if (healthPoints <= 0)
         {
             backgroundObject.SetActive(true);
             Time.timeScale = 0f;
