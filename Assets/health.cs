@@ -1,5 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -7,7 +9,8 @@ public class health : MonoBehaviour
 {
     public float healthPoints = 300f;
     public Slider healthSlider;
-public GameObject backgroundObject;
+    public GameObject backgroundObject;
+    
 
     private void Start()
     {
@@ -29,6 +32,7 @@ public GameObject backgroundObject;
             backgroundObject.SetActive(false);
            
         }
-    }
 
+    }
+    
 }
