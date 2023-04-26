@@ -392,7 +392,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: daea153dcf07dcb47b1698a3529f8c7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthPoints: 300
+  healthPoints: 100
   healthSlider: {fileID: 979674241}
   backgroundObject: {fileID: 1889177410}
 --- !u!114 &11270888
