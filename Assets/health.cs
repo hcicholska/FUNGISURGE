@@ -30,5 +30,10 @@ public GameObject backgroundObject;
            
         }
     }
+    
+public void TakeDamage(float damage)
+    {
+        healthPoints -= damage;
+    }
 
 }
