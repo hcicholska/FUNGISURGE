@@ -26,4 +26,11 @@ public class EnemyScript : MonoBehaviour {
         yield return new WaitForSeconds(hitDuration);
         renderer.material.color = originalColor;
     }
+
+ 
+  
 }
+
+
+  
+
