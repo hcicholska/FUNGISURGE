@@ -6,6 +6,7 @@ public class EnemyCollision : MonoBehaviour
 {
     private void OnCollisionEnter(Collision collision)
     {
+        Debug.Log ("kolizja jest");
         if (collision.gameObject.CompareTag("Player"))
         {
             health health = collision.gameObject.GetComponent<health>();
