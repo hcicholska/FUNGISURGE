@@ -35,4 +35,9 @@ public class health : MonoBehaviour
 
     }
     
+public void TakeDamage(float damage)
+    {
+        healthPoints -= damage;
+    }
+
 }
