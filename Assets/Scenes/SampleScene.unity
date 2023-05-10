@@ -468,7 +468,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: daea153dcf07dcb47b1698a3529f8c7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthPoints: 300
+  healthPoints: 100
   healthSlider: {fileID: 979674241}
   backgroundObject: {fileID: 1889177410}
 --- !u!114 &11270888
@@ -7770,6 +7770,42 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1771287692}
   m_CullTransparentMesh: 1
+--- !u!1 &1792888532 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3574261138887349324, guid: 8bd4f6b2e7c2d344882ad9ada9a06284, type: 3}
+  m_PrefabInstance: {fileID: 923268860624576972}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1792888533 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2618660308702616899, guid: 8bd4f6b2e7c2d344882ad9ada9a06284, type: 3}
+  m_PrefabInstance: {fileID: 923268860624576972}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1792888534
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1792888532}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 5, z: 5}
+  m_Center: {x: 0.4, y: 0.4, z: 0.4}
+--- !u!114 &1792888538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1792888532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c1d30767319a254abd4158f4f71195a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  potionHealthPoints: 50
 --- !u!1 &1805564506
 GameObject:
   m_ObjectHideFlags: 0
