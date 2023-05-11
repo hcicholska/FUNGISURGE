@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class EnemyCollision : MonoBehaviour
 {
-    private void OnCollisionEnter(Collision collision)
+
+    private void OnTriggerEnter(Collider other)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Player"))
         {
-            health health = collision.gameObject.GetComponent<health>();
+            health health = other.gameObject.GetComponent<health>();
             if (health != null)
             {
                 health.TakeDamage(10f);
@@ -16,3 +17,4 @@ public class EnemyCollision : MonoBehaviour
         }
     }
 }
+
