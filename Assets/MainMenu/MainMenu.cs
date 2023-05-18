@@ -25,4 +25,12 @@ public class MainMenu : MonoBehaviour
         Application.Quit();
         Debug.Log("You just quit the game");
     }
+    
+    public class BackToMenu : MonoBehaviour
+    {
+        public void GoBack()
+        {
+            SceneManager.LoadScene(0);
+        }
+    }
 }
