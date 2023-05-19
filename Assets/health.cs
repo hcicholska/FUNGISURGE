@@ -31,7 +31,6 @@ public class health : MonoBehaviour
         else
         {
             backgroundObject.SetActive(false);
-           
         }
 
        if (healthPoints > maxHealthPoints) 
