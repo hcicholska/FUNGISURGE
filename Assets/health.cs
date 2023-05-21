@@ -8,6 +8,7 @@ using UnityEngine.UI;
 public class health : MonoBehaviour
 {
     public float healthPoints = 300f;
+    public int maxHealthPoints = 300;
     public Slider healthSlider;
     public GameObject backgroundObject;
     
@@ -33,6 +34,10 @@ public class health : MonoBehaviour
            
         }
 
+       if (healthPoints > maxHealthPoints)
+        {
+            healthPoints = maxHealthPoints;
+        }
     }
     
 public void TakeDamage(float damage)

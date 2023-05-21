@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class ammunition : MonoBehaviour
 {
     public float ammunitionQuantity = 20f;
+    public int maxAmmunitionQuantity = 20;
     public Slider ammunitionSlider;
 
    
@@ -16,6 +17,12 @@ public class ammunition : MonoBehaviour
     private void Update()
     {
         ammunitionSlider.value = ammunitionQuantity;
+
+
+        if (ammunitionQuantity > maxAmmunitionQuantity) 
+        { 
+            ammunitionQuantity = maxAmmunitionQuantity;
+        }
     }
 }
 

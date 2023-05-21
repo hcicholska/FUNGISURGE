@@ -22,9 +22,7 @@ public class Potion : MonoBehaviour
 
         other.GetComponent<health>().healthPoints += potionHealthPoints;
         
-        
-        
-        
+    
        
     }
 }
