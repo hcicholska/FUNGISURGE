@@ -6,7 +6,7 @@ using System;
 
 public class Potion : MonoBehaviour
 {
-    
+    public AudioSource potionSound;
     public int potionHealthPoints = 50;
     public void OnTriggerEnter(Collider other)
     {
@@ -17,6 +17,7 @@ public class Potion : MonoBehaviour
         if (playerInventory != null)
         {
             playerInventory.PotionCollected();
+            potionSound.Play();
             gameObject.SetActive(false);
         }
 

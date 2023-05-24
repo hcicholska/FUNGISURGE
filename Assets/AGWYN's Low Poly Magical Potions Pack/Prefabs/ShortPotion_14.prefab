@@ -12,6 +12,10 @@ GameObject:
   - component: {fileID: 3148784410700052182}
   - component: {fileID: 888983690980393500}
   - component: {fileID: 8671690097367997682}
+  - component: {fileID: 734025541}
+  - component: {fileID: 734025543}
+  - component: {fileID: 734025547}
+  - component: {fileID: 734025542}
   m_Layer: 0
   m_Name: ShortPotion_14
   m_TagString: Untagged
@@ -26,9 +30,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1681726694830842825}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 10.200305, y: 10.200305, z: 10.200305}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -99,3 +103,64 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5346146882469430814, guid: 7ec77687d2ad82c4a94e0cfc70227c51, type: 3}
+--- !u!65 &734025541
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1681726694830842825}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.10997104, y: 0.12773675, z: 0.12698363}
+  m_Center: {x: -0.00000047683713, y: 0.06386848, z: 0.00000012293458}
+--- !u!136 &734025543
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1681726694830842825}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.063491814
+  m_Height: 0.12773675
+  m_Direction: 1
+  m_Center: {x: -0.00000047683713, y: 0.06386848, z: 0.00000012293458}
+--- !u!95 &734025547
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1681726694830842825}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6ba50c447ae850445a246ca4d54974fe, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &734025542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1681726694830842825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c1d30767319a254abd4158f4f71195a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  potionSound: {fileID: 0}
+  potionHealthPoints: 50
