@@ -317,22 +317,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/main character
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/main character
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\hania\OneDrive\Pulpit\repozytorium\FUNGISURGE
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: f26a0000
-    m_LastClickedID: 27378
-    m_ExpandedIDs: 00000000f26a0000f46a0000f66a0000f86a0000846b0000dc6c000000ca9a3b
+    m_SelectedIDs: 1c6c0000
+    m_LastClickedID: 27676
+    m_ExpandedIDs: 00000000626b0000646b0000666b0000686b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -360,7 +360,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f26a0000f46a0000f66a0000f86a0000
+    m_ExpandedIDs: 00000000626b0000646b0000666b0000686b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -387,7 +387,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000ee6a0000d06b0000ca6d000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -451,7 +451,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 916
+  m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -487,10 +487,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 6718}
-      m_SelectedIDs: 4e620000
-      m_LastClickedID: 25166
-      m_ExpandedIDs: f4e7fffffce7ffff00e8ffff08e8ffff0ce8ffff10e8ffff14e8ffff18e8ffff20e8ffff24e8ffff2ce8ffff30e8ffff34e8ffff38e8ffff3ce8ffff44e8ffff48e8ffff4ce8ffff50e8ffff58e8ffff5ce8ffff60e8ffff64e8ffff68e8ffff70e8ffff74e8ffff78e8ffff7ce8ffff80e8ffff88e8ffff8ce8ffff94e8ffff98e8ffff9ce8ffffa0e8ffffa4e8fffface8ffffb0e8ffffb8e8ffffbce8ffffc0e8ffffc4e8ffffc8e8ffffa4f1ffffacf1ffffb4f1ffffbcf1ffffc4f1ffffc8f1ffffd0f1ffffd4f1ffffd8f1ffffe0f1ffffe4f1ffffe8f1fffff8f1fffffcf1ffff04f2ffff08f2ffff0cf2ffff14f2ffff18f2ffff1cf2ffff20f2ffff28f2ffff2cf2ffff30f2ffff38f2ffff3cf2ffff40f2ffff48f2ffff4cf2ffff50f2ffff58f2ffff5cf2ffff60f2ffff68f2ffff6cf2ffff70f2ffff74f2ffff78f2ffff7cf2ffff84f2ffff88f2ffff8cf2ffff94f2ffff98f2ffff9cf2ffffa4f2ffffa8f2ffffacf2ffffb4f2ffffb8f2ffffbcf2ffffc4f2ffffc8f2ffffccf2ffffd4f2ffffd8f2ffffdcf2ffffe0f2ffffe4f2ffffe8f2fffff0f2fffff4f2fffff8f2fffffcf2ffff04f3ffff08f3ffff0cf3ffff14f3ffff18f3ffff1cf3ffff20f3ffff24f3ffff2cf3ffff30f3ffff34f3ffff3cf3ffff40f3ffff44f3ffff48f3ffff50f3ffff54f3ffff58f3ffff60f3ffff64f3ffff68f3ffff70f3ffff74f3ffff78f3ffff80f3ffff84f3ffff88f3ffff90f3ffff94f3ffff98f3ffff9cf3ffffa0f3ffffa4f3ffffa8f3ffffb0f3ffffb4f3ffffb8f3ffffc0f3ffffc4f3ffffc8f3ffffd0f3ffffd4f3ffffd8f3ffffe0f3ffffe4f3ffffe8f3fffff0f3fffff4f3fffff8f3fffffcf3ffff00f4ffff04f4ffff08f4ffff0cf4ffff10f4ffff14f4ffff16f4ffff36f8ffff88f8ffff90f8ffff94f8ffff98f8ffff9cf8ffffa4f8ffffacf8ffffb0f8ffffb4f8ffffb8f8ffffc0f8ffffc4f8ffffc8f8ffffd0f8ffffd4f8ffffd8f8ffffdcf8ffffe4f8ffffe8f8ffffecf8fffff0f8fffff8f8ffff00f9ffff04f9ffff08f9ffff0cf9ffff14f9ffff1cf9ffff20f9ffff24f9ffff26f9fffff2faffff845e0000985e0000785f000024600000286000005260000086600000f46000009e610000d8610000786200007c6200009c620000c4620000da620000f462000036630000
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: f2faffff985e0000ca600000dc610000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -739,9 +739,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.5303383, y: 2.8748703, z: 11.042881}
+    m_Target: {x: 2.1656828, y: 0.7521591, z: 7.553155}
     speed: 2
-    m_Value: {x: -0.5303383, y: 2.8748703, z: 11.042881}
+    m_Value: {x: 2.1656828, y: 0.7521591, z: 7.553155}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -792,9 +792,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0.22228953, y: 0.31633583, z: -0.07651135, w: 0.9190566}
   m_Size:
-    m_Target: 55.320103
+    m_Target: 20.166782
     speed: 2
-    m_Value: 52.937897
+    m_Value: 21.11705
   m_Ortho:
     m_Target: 0
     speed: 2
