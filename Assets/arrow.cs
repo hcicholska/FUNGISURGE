@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class arrow : MonoBehaviour
 {
+    public AudioSource ammoSound;
     public int arrowAmmunition = 1;
 
     public void OnTriggerEnter(Collider other)
@@ -13,6 +14,7 @@ public class arrow : MonoBehaviour
 
         if (playerInventory != null)
         {
+            ammoSound.Play();
             playerInventory.ArrowCollected();
             gameObject.SetActive(false);
         }
