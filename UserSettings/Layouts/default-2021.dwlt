@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 111
+  controlID: 22
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 57
+  controlID: 23
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 118
+  controlID: 24
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -306,8 +306,7 @@ MonoBehaviour:
     m_SaveData: []
   m_SearchFilter:
     m_NameFilter: 
-    m_ClassNames:
-    - Material
+    m_ClassNames: []
     m_AssetLabels: []
     m_AssetBundleNames: []
     m_VersionControlStates: []
@@ -317,22 +316,23 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SkipHidden: 0
     m_SearchArea: 1
-    m_Folders: []
+    m_Folders:
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/HYPEPOLY - Isometric Tiles Standart Lite/Prefabs/Material 1
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\hania\OneDrive\Pulpit\repozytorium\FUNGISURGE
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 01ca9a3b
-    m_LastClickedID: 1000000001
-    m_ExpandedIDs: 00000000ee670000f0670000f2670000f4670000066800000a6800000e68000010680000046f0000e06f0000e26f000000ca9a3b
+    m_SelectedIDs: 10690000
+    m_LastClickedID: 26896
+    m_ExpandedIDs: 000000001069000012690000146900001669000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -360,7 +360,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ee670000f0670000f2670000f4670000
+    m_ExpandedIDs: 0000000010690000126900001469000016690000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -387,7 +387,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300009e6500004a7d0000f67d0000f07d0000f27d00000076000012760000a26f000094680000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -487,10 +487,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 1422}
-      m_SelectedIDs: ca5f0000
-      m_LastClickedID: 24522
-      m_ExpandedIDs: 62f7ffff3afafffff2faffff985e000098610000
+      scrollPos: {x: 0, y: 2094}
+      m_SelectedIDs: 845e0000
+      m_LastClickedID: 24196
+      m_ExpandedIDs: 6499ffff6899ffff64ddffffbcebffffd8f6fffff2faffff985e0000d2610000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -739,9 +739,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 28.499874, y: 42.047424, z: -22.139675}
+    m_Target: {x: 24.576416, y: 31.416418, z: -41.540802}
     speed: 2
-    m_Value: {x: 28.499874, y: 42.047424, z: -22.139675}
+    m_Value: {x: 24.576416, y: 31.416418, z: -41.540802}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -788,13 +788,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.26003504, y: -0.5834832, z: 0.20456374, w: -0.7417089}
+    m_Target: {x: -0.12644863, y: -0.42823163, z: 0.060649693, w: -0.89276284}
     speed: 2
-    m_Value: {x: -0.25941378, y: -0.58569133, z: 0.20533788, w: -0.7399369}
+    m_Value: {x: -0.12787457, y: -0.42678472, z: 0.06109799, w: -0.89317966}
   m_Size:
-    m_Target: 27.52344
+    m_Target: 35.69381
     speed: 2
-    m_Value: 26.338219
+    m_Value: 37.375717
   m_Ortho:
     m_Target: 1
     speed: 2
