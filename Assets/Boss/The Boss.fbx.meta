@@ -1,12 +1,27 @@
 fileFormatVersion: 2
-guid: 92fd255d1543d0243a9d98da230edf15
+guid: 52226202efdc3a8439d8aa5f8b1a2fe0
 ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable:
   - first:
       74: -203655887218126122
     second: mixamo.com
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Boss_diffuse
+    second: {fileID: 2800000, guid: 0fd260fdf44ecae458057255db656eee, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Boss_normal
+    second: {fileID: 2800000, guid: 0907bd0afba0ce345a57b65cb2d4c8b8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Boss_specular
+    second: {fileID: 2800000, guid: 19c85ce446dcc4045a5b703e89f6483d, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
