@@ -261,7 +261,7 @@ GameObject:
   - component: {fileID: 1007032}
   m_Layer: 0
   m_Name: Snail
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -425,7 +425,7 @@ MonoBehaviour:
   stopDistance: 2
   detectionRadiusWithShift: 1
   player: {fileID: 11270883}
-  enemy: {fileID: 1626169451}
+  enemy: {fileID: 1007031}
 --- !u!114 &1007036
 MonoBehaviour:
   m_ObjectHideFlags: 0
