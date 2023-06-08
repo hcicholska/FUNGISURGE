@@ -8629,6 +8629,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1314566915}
     m_Modifications:
+    - target: {fileID: -3281812277924531262, guid: 3d3e1647da524af438765070d6d4fc6c, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: -3281812277924531262, guid: 3d3e1647da524af438765070d6d4fc6c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3196648517536708714, guid: 3d3e1647da524af438765070d6d4fc6c, type: 3}
       propertyPath: m_Name
       value: Tile Top 1
@@ -29663,7 +29671,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1470296704}
-  m_RootOrder: 417
+  m_RootOrder: 157
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &1107677025
 MeshCollider:
@@ -34447,7 +34455,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1470296704}
-  m_RootOrder: 491
+  m_RootOrder: 158
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &1262925902
 MeshCollider:
@@ -39719,6 +39727,8 @@ Transform:
   - {fileID: 136277571}
   - {fileID: 1914824832}
   - {fileID: 912385101}
+  - {fileID: 1107677024}
+  - {fileID: 1262925901}
   - {fileID: 1133363880}
   - {fileID: 1793819309}
   - {fileID: 1499720456}
@@ -39979,7 +39989,6 @@ Transform:
   - {fileID: 1395309305}
   - {fileID: 1340064440}
   - {fileID: 1205917938}
-  - {fileID: 1107677024}
   - {fileID: 237996771}
   - {fileID: 892799274}
   - {fileID: 1457249696}
@@ -40053,7 +40062,6 @@ Transform:
   - {fileID: 414278680}
   - {fileID: 1679860672}
   - {fileID: 1476142433}
-  - {fileID: 1262925901}
   - {fileID: 17953335}
   - {fileID: 928605851}
   - {fileID: 1018297284}

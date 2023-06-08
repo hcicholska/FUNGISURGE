@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4146e4ae-b385-4822-9e17-7d13c65a8757" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.FUNGISURGE/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FUNGISURGE/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AGWYN's Low Poly Magical Potions Pack/Prefabs/ShortPotion_14.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AGWYN's Low Poly Magical Potions Pack/Prefabs/ShortPotion_14.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Potion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Potion.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/arrow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/arrow.cs" afterDir="false" />
-    </list>
+    <list default="true" id="4146e4ae-b385-4822-9e17-7d13c65a8757" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,6 +90,7 @@
       <workItem from="1684915124989" duration="182000" />
       <workItem from="1684915603647" duration="81000" />
       <workItem from="1684916232087" duration="45000" />
+      <workItem from="1686222922140" duration="144000" />
     </task>
     <servers />
   </component>
