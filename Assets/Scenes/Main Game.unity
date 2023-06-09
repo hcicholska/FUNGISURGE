@@ -36886,7 +36886,6 @@ GameObject:
   - component: {fileID: 1369136254}
   - component: {fileID: 1369136253}
   - component: {fileID: 1369136252}
-  - component: {fileID: 1369136255}
   m_Layer: 5
   m_Name: resumeButton
   m_TagString: Untagged
@@ -36959,7 +36958,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1369136255}
+      - m_Target: {fileID: 1664639019}
         m_TargetAssemblyTypeName: PauseManager, Assembly-CSharp
         m_MethodName: ResumeGame
         m_Mode: 1
@@ -37009,19 +37008,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1369136250}
   m_CullTransparentMesh: 1
---- !u!114 &1369136255
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1369136250}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9e742665fbf2a7249883e75fe934c03f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pauseMenu: {fileID: 1664639016}
 --- !u!4 &1369777189 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 2c8686c791ced4775a6cc998861a3317, type: 3}
@@ -46840,7 +46826,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1664639017}
-  - component: {fileID: 1664639018}
+  - component: {fileID: 1664639019}
   m_Layer: 5
   m_Name: GameObject
   m_TagString: Untagged
@@ -46872,7 +46858,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 23.625618}
   m_SizeDelta: {x: 160, y: 82}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1664639018
+--- !u!114 &1664639019
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -46881,9 +46867,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1664639016}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49ff1cbdfd49b5543a42d3f1ab3490c9, type: 3}
+  m_Script: {fileID: 11500000, guid: 9e742665fbf2a7249883e75fe934c03f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pauseMenu: {fileID: 1664639016}
 --- !u!1001 &1664710607
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -50354,7 +50341,6 @@ GameObject:
   - component: {fileID: 1771287696}
   - component: {fileID: 1771287695}
   - component: {fileID: 1771287694}
-  - component: {fileID: 1771287697}
   m_Layer: 5
   m_Name: mainMenuButton
   m_TagString: Untagged
@@ -50427,9 +50413,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1664639018}
-        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: GoToMainMenu
+      - m_Target: {fileID: 1664639019}
+        m_TargetAssemblyTypeName: PauseManager, Assembly-CSharp
+        m_MethodName: LoadMainMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -50477,18 +50463,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1771287692}
   m_CullTransparentMesh: 1
---- !u!114 &1771287697
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1771287692}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49ff1cbdfd49b5543a42d3f1ab3490c9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1771973851 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 421152, guid: 9447ff023d0aaf84f85f4d030320cd33, type: 3}
