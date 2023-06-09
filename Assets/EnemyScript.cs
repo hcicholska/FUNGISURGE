@@ -14,6 +14,7 @@ public class EnemyScript : MonoBehaviour {
     }
 
     public void OnMouseDown() {
+        
         health -= 10;
         if (health <= 0) {
             Destroy(gameObject);
