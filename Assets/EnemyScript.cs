@@ -7,13 +7,16 @@ public class EnemyScript : MonoBehaviour {
     public float hitDuration = 0.5f;
     private Color originalColor;
     private Renderer renderer;
+    public AudioSource snailSound;
 
     void Start() {
         renderer = GetComponent<Renderer>();
         originalColor = renderer.material.color;
     }
 
-    public void OnMouseDown() {
+    public void OnMouseDown()
+    {
+        snailSound.Play();
         health -= 10;
         if (health <= 0) {
             Destroy(gameObject);

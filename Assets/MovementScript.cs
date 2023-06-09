@@ -11,7 +11,8 @@ public class MovementScript : MonoBehaviour
     public float sneakingSpeed;
     private CharacterController conn;
     public bool isGrounded;
-    private int jumpCount; 
+    private int jumpCount;
+    public AudioSource jumpSound;
 
 
     // Start is called before the first frame update
@@ -82,6 +83,7 @@ public class MovementScript : MonoBehaviour
 
         if (Input.GetButtonDown("Jump"))
         {
+            jumpSound.Play();
             ySpeed = jumpSpeed;
             isGrounded = false;
             jumpCount++; // Zwiększ liczbę wykonanych skoków po wykonaniu skoku
@@ -91,6 +93,7 @@ public class MovementScript : MonoBehaviour
     {
         if (Input.GetButtonDown("Jump") && jumpCount < 2) // Sprawdź czy zostały dostępne skoki
         {
+            jumpSound.Play();
             ySpeed = jumpSpeed;
             jumpCount++; // Zwiększ liczbę wykonanych skoków po wykonaniu skoku
         }
