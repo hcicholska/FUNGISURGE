@@ -35,8 +35,8 @@ public class PauseManager : MonoBehaviour
     {
         // Twój kod do wznowienia gry
         Time.timeScale = 1f;
-        pauseMenu.SetActive(false);
         isPaused = false;
+        pauseMenu.SetActive(false);
     }
 
     public void PauseGame()

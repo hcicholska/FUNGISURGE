@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4146e4ae-b385-4822-9e17-7d13c65a8757" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.FUNGISURGE/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FUNGISURGE/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/PauseManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PauseManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,6 +99,7 @@
       <workItem from="1686227396154" duration="16000" />
       <workItem from="1686228010669" duration="63000" />
       <workItem from="1686303147272" duration="328000" />
+      <workItem from="1686304703111" duration="693000" />
     </task>
     <servers />
   </component>
