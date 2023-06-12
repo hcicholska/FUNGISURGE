@@ -11,7 +11,8 @@ public class health : MonoBehaviour
     public int maxHealthPoints = 300;
     public Slider healthSlider;
     public GameObject backgroundObject;
-    
+    public AudioSource lowerHP;
+
 
     private void Start()
     {
@@ -41,7 +42,8 @@ public class health : MonoBehaviour
     }
     
 public void TakeDamage(float damage)
-    {
+{
+        lowerHP.Play();
         healthPoints -= damage;
     }
 
