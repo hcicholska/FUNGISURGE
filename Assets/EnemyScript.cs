@@ -24,6 +24,8 @@ public class EnemyScript : MonoBehaviour {
         StartCoroutine(HitEffect());
     }
 
+
+
     IEnumerator HitEffect() {
         renderer.material.color = Color.red;
         yield return new WaitForSeconds(hitDuration);
