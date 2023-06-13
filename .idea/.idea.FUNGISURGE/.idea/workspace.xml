@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4146e4ae-b385-4822-9e17-7d13c65a8757" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.FUNGISURGE/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FUNGISURGE/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EnemyScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EnemyScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FlatKit/Demos/[Water] Ocean Islands/Ocean Islands Scene - Post-Processing/[Flat Kit] Water Demo Post-processing.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FlatKit/Demos/[Water] Ocean Islands/Ocean Islands Scene - Post-Processing/[Flat Kit] Water Demo Post-processing.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/arrow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/arrow.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripts/Potion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/Potion.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shooting.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shooting.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +127,7 @@
       <workItem from="1686587551486" duration="2000" />
       <workItem from="1686587739329" duration="894000" />
       <workItem from="1686644676695" duration="565000" />
-      <workItem from="1686674314002" duration="859000" />
+      <workItem from="1686674314002" duration="1826000" />
     </task>
     <servers />
   </component>

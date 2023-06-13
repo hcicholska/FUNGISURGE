@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,19 +9,24 @@ public class Shooting : MonoBehaviour {
     public ParticleSystem shootingParticles;
     private CharacterController conn;
     public int shot = 1;
+    private ammunition ammunition;
+    private void Start()
+    {
+        conn = GetComponent<CharacterController>();
+        ammunition = GetComponent<ammunition>();
+    }
 
     void Update () 
     {
         
-        if (Input.GetMouseButtonDown(0)) 
+        if (Input.GetMouseButtonDown(0) && ammunition.ammunitionQuantity > 0) 
         {
-            GetComponent<ammunition>().ammunitionQuantity -= shot;
+            ammunition.ammunitionQuantity -= shot;
 
             RaycastHit hit;
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
              
-            CharacterController CharacterController = GetComponent<CharacterController>();
-            Vector3 playerMovement = CharacterController.velocity;
+            Vector3 playerMovement = conn.velocity;
             Vector3 shootDirection = playerMovement != Vector3.zero ? playerMovement.normalized : transform.forward;
             ParticleSystem.VelocityOverLifetimeModule velocityModule = shootingParticles.velocityOverLifetime;
             velocityModule.enabled = true;
