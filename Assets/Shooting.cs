@@ -7,11 +7,15 @@ public class Shooting : MonoBehaviour {
     public LayerMask enemyLayer;
     public ParticleSystem shootingParticles;
     private CharacterController conn;
+    public int shot = 1;
 
+    void Update () 
+    {
+        
+        if (Input.GetMouseButtonDown(0)) 
+        {
+            GetComponent<ammunition>().ammunitionQuantity -= shot;
 
-    void Update () {
-        if (Input.GetMouseButtonDown(0)) {
-          
             RaycastHit hit;
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
              
