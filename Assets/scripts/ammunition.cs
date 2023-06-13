@@ -5,8 +5,9 @@ using UnityEngine.UI;
 
 public class ammunition : MonoBehaviour
 {
-    public float ammunitionQuantity = 20f;
-    public int maxAmmunitionQuantity = 20;
+    public float ammunitionQuantity = 50f;
+    public float maxAmmunitionQuantity = 50f;
+    public float minimumAmmunitionQuantity = 0f;
     public Slider ammunitionSlider;
 
    
@@ -21,6 +22,11 @@ public class ammunition : MonoBehaviour
         if (ammunitionQuantity > maxAmmunitionQuantity) 
         { 
             ammunitionQuantity = maxAmmunitionQuantity;
+        }
+
+        if (ammunitionQuantity < minimumAmmunitionQuantity)
+        {
+            ammunitionQuantity = minimumAmmunitionQuantity;
         }
     }
 }
