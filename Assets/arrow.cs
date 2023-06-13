@@ -19,6 +19,7 @@ public class arrow : MonoBehaviour
             gameObject.SetActive(false);
         }
 
-        other.GetComponent<ammunition>().ammunitionQuantity += arrowAmmunition;
+        if(ammunition != null)
+            ammunition.ammunitionQuantity += arrowAmmunition;
     }
 }

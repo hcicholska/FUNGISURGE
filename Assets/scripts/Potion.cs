@@ -21,11 +21,8 @@ public class Potion : MonoBehaviour
             gameObject.SetActive(false);
         }
 
-        other.GetComponent<health>().healthPoints += potionHealthPoints;
+        if(health != null)
+            health.healthPoints += potionHealthPoints;
         
-        
-        
-        
-       
     }
 }
