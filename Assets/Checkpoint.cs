@@ -8,10 +8,14 @@ public class Checkpoint : MonoBehaviour
     public CheckpointManager checkpointManager;
     public AudioSource checkpoint;
 
+    private bool isSoundPlayed = false;
+
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player") && !isSoundPlayed)
         {
+            isSoundPlayed = true;
+            
             checkpoint.Play();
             checkpointManager.SetCheckpoint(transform.position);
         }

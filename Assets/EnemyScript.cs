@@ -10,7 +10,7 @@ public class EnemyScript : MonoBehaviour {
     public AudioSource snailSound;
 
     void Start() {
-        renderer = GetComponent<Renderer>();
+        renderer = GetComponentInChildren<Renderer>();
         originalColor = renderer.material.color;
     }
 
