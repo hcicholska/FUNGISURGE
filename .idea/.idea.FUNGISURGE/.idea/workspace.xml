@@ -3,9 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="4146e4ae-b385-4822-9e17-7d13c65a8757" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FUNGISURGE/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FUNGISURGE/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/KillFloor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KillFloor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/health.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/health.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Checkpoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Checkpoint.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CheckpointManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CheckpointManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FlatKit/[Render Pipeline] Built-In.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FlatKit/[Render Pipeline] Universal (URP).unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,6 +115,7 @@
       <workItem from="1686586962598" duration="385000" />
       <workItem from="1686587551486" duration="2000" />
       <workItem from="1686587739329" duration="894000" />
+      <workItem from="1686644676695" duration="565000" />
     </task>
     <servers />
   </component>
