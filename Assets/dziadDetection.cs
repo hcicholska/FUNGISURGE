@@ -5,14 +5,15 @@ using UnityEngine.AI;
 
 public class dziadDetection : MonoBehaviour
 { 
-    public float detectionRadius = 10f;
+    public float detectionRadius;
     public float stopDistance = 2f;
     public float detectionRadiusWithShift = 1f;
     public Transform player;
     public NavMeshAgent enemy;
     private bool isFollowing;
-    public float attackDistance = 5;
+    public float attackDistance = 2;
     public Animator animator;
+    
     
 
     private void Start()
@@ -23,18 +24,23 @@ public class dziadDetection : MonoBehaviour
     void Update()
     {
         float distanceToPlayer = Vector3.Distance(transform.position, player.position);
-
+            Debug.Log(distanceToPlayer + " <= " + detectionRadius);
         if (distanceToPlayer <= detectionRadius)
+        {
+            
+            isFollowing = true;
+            animator.SetBool("isBoxing", false);
+            animator.SetBool("isWalking", true);
+        }
+       
+
+        if (distanceToPlayer <= attackDistance)
         {
             isFollowing = true;
             animator.SetBool("isBoxing", true);
             animator.SetBool("isWalking", false);
-        }
-        else
-        {
-            isFollowing = false;
-            animator.SetBool("isWalking", true);
-            animator.SetBool("isBoxing", false);
+        
+
         }
 
         if (Input.GetKey(KeyCode.LeftShift))
@@ -44,7 +50,7 @@ public class dziadDetection : MonoBehaviour
         }
         else
         {
-            detectionRadius = 10f;
+            detectionRadius = 25f;
         }
 
         if (isFollowing)
