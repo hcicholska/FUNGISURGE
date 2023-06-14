@@ -7,6 +7,8 @@ public class Checkpoint : MonoBehaviour
     private Vector3 playerPosition;
     public CheckpointManager checkpointManager;
     public AudioSource checkpoint;
+    public Animator flagAnimator;
+    public ParticleSystem checkpointParticles;
 
     private bool isSoundPlayed = false;
 
@@ -18,6 +20,11 @@ public class Checkpoint : MonoBehaviour
             
             checkpoint.Play();
             checkpointManager.SetCheckpoint(transform.position);
+
+            flagAnimator.SetTrigger("PlayCheckpointFlagAnimation");
+            
+            checkpointParticles.Play();
+
         }
     }
 
