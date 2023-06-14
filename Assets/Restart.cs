@@ -1,35 +1,28 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class RestartButton : MonoBehaviour
+public class Restart : MonoBehaviour
 {
-    public CharacterController player; // referencja do obiektu gracza
-    public Transform respawnPoint; // referencja do punktu respawnu
-    public health playerHealth; // referencja do komponentu zdrowia gracza
     public Button restartButton; // referencja do przycisku Restart w interfejsie użytkownika
+    public PauseManager pauseManager; // referencja do skryptu PauseManager
+    public GameObject pauseMenu;
 
     void Start()
     {
-        // Dodanie listenera do przycisku restart
-        restartButton.onClick.AddListener(RestartGame);
+        restartButton.onClick.AddListener(RestartGame); // Dodanie listenera do przycisku restart
     }
 
-    // Metoda wywołana po kliknięciu przycisku Restart
     void RestartGame()
     {
-        Time.timeScale = 1f;
+        pauseManager.ResumeGame();
 
-        player.enabled = false;
-        // Przywrócenie gracza do punktu respawnu
-        player.transform.position = respawnPoint.position;
-        player.enabled = true;
-
-        // Przywrócenie punktów zdrowia gracza
-        playerHealth.healthPoints = 300f;
-
-      
+        if (pauseMenu != null)
+        {
+            pauseMenu.SetActive(false);
+        }
+        SceneManager.LoadScene("Main Game");
     }
 }
-
